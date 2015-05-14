@@ -39,6 +39,14 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+.header_logo {
+  margin: rem-calc(17) 0;
+}
+
+.social_icons {
+  margin: rem-calc(55);
+}
+
 .blog_content {
   img {
     padding-left: 0.9375rem;
