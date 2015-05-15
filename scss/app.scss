@@ -39,6 +39,22 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+/*
+ * Home Page
+ *
+ */
+
+// Change pointers black
+$slick-arrow-color: black !default;
+$slick-font-path: "../bower_components/slick.js/slick/fonts/" !default;
+@import "../bower_components/slick.js/slick/slick-theme";
+
+
+/*
+ * Content Page
+ *
+ */
+
 .header_logo {
   margin: rem-calc(17) 0;
 }

@@ -2,6 +2,7 @@
   "name": "foundation-libsass-template",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "fontawesome": "4.2.x"
+    "fontawesome": "4.2.x",
+    "slick.js": "1.5.x"
   }
 }
