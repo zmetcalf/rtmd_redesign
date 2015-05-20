@@ -45,10 +45,29 @@
  */
 
 // Change pointers black
+
+$image-path: "../bower_components/slick.js/slick/";
+
+// Hack image_url for grunt install
+@function image-url($url) {
+  @return url($image-path + $url);
+}
+
 $slick-arrow-color: black;
 $slick-font-path: "../bower_components/slick.js/slick/fonts/";
 @import "../bower_components/slick.js/slick/slick-theme";
 
+
+// Center images
+
+.home_slider {
+  img {
+    margin: auto;
+  }
+  h5 {
+    text-align: center;
+  }
+}
 
 /*
  * Content Page
