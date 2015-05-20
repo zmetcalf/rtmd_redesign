@@ -48,7 +48,7 @@
 
 $image-path: "../bower_components/slick.js/slick/";
 
-// Hack image_url for grunt install
+// Hack foundation's image-url function
 @function image-url($url) {
   @return url($image-path + $url);
 }
@@ -57,6 +57,11 @@ $slick-arrow-color: black;
 $slick-font-path: "../bower_components/slick.js/slick/fonts/";
 @import "../bower_components/slick.js/slick/slick-theme";
 
+
+// Revert image url back
+@function image-url($url) {
+  @return unquote("url(../img/#{$url})");
+}
 
 // Center images
 
