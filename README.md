@@ -1,29 +1,7 @@
-# Foundation libsass template
+# Rebuilding Together Metro Denver Theme
 
-This is a template to start your own project that uses Grunt and libsass!
+This is the source to the theme for RTMD's website. It was later changed
+and updated for WordPress.
+It was developed with Foundation, SASS, and Slick.js.
 
-## Requirements
-
-You'll need to have the following items installed before continuing.
-
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
-
-## Quickstart
-
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
-
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+This theme is Charityware for [Rebuilding Together Metro Denver](https://www.coloradogives.org/rebuildingtogether/overview).
